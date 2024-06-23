@@ -5,13 +5,20 @@
 ## Create User
 
 URL: /api/user/v1/create
+
 Method: POST
+
 Description: Creates a new user in the application.
+
 Body: {
+
 "username": "string",
+
 "password": "string"
+
 }
 username (string): Username of the new user.
+
 password (string): Password of the new user.
 
 ### Successful Response:
